@@ -8,12 +8,15 @@ Divided into two files because i wanted to run the last commands separately.
 ###Scripts containing commmands used in Nodejs official page to install node
 - supersimple_v6
 
+###Scripts to install Docker on the latest Ubuntu Xenial 16.04 (not tested properly)
+- installdocker_part1 and part2
+
 ### How to use the script files
 - run `apt-get update && apt-get install -y git`
 - run `git clone <this repo>`
 - set execute permissions for the scripts in order to run them
 
-### A simple way to run the scripts
+### A simpler way to run the scripts
 - install curl `apt-get update && apt-get install -y curl`
 - run `curl <url-to-raw-script> | bash -`
 
