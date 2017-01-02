@@ -1,6 +1,7 @@
 #!/bin/bash
 apt-get update
 apt-get install sudo
+apt-get update
 apt-get install apt-transport-https ca-certificates
 sudo apt-key adv \
                --keyserver hkp://ha.pool.sks-keyservers.net:80 \
